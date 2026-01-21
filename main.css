@@ -20,6 +20,10 @@ a:hover {
     line-height: 1.6em;
     margin: 0 auto; /* Center the content horizontally */
 }
+/* Force bold only in that affiliation block */
+#content > div strong {
+  font-weight: 700;
+}
 
 .avatar {
     border-radius: 50%;
